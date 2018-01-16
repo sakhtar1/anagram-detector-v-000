@@ -8,7 +8,7 @@ class Anagram
     @detect = detect
   end
 
-  def anagram(word)
+  def match(word)
     word = @detect.split("").sort
     detect.find_all do |w|
       anagram = w.sort("")
