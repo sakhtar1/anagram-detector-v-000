@@ -2,7 +2,7 @@
 class Anagram
 
   attr_accessor :detect
-  anagram = []
+  a= []
 
   def initialize(detect)
     @detect = detect
