@@ -12,7 +12,7 @@ class Anagram
     word = @detect.split("").sort
     detect.find_all do |w|
       anagram = w.sort("")
-      anagram.word == word
+      anagram == word
     end
   end
 
