@@ -11,7 +11,7 @@ class Anagram
   def match(word)
     word = @detect.split("").sort
     word.find_all do |w|
-      anagram = w.sort("")
+      anagram = w.split("").sort
       anagram == word
     end
   end
